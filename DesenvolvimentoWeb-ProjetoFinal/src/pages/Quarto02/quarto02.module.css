@@ -1,0 +1,142 @@
+.quarto02 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  animation: fadeInBackground 1s ease-in-out;
+}
+
+.tituloLocal{
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  transform: rotate(-15deg);
+  font-size: x-large;
+  font-family: "Honk", system-ui;
+}
+
+.containerIcon{
+  position: absolute;
+  background: transparent;
+  bottom: 1%;
+  left: 48.3%;
+}
+
+.homeIcon{
+  width: 55%;
+}
+
+.notebook{
+  position: absolute;
+  bottom: 58%;
+  left: 14.3%;
+  z-index: 1;
+  width: 9%;
+  height: 12%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition:  0.8s ease-in-out;
+}
+
+.notebook:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition:  0.8s ease-in-out;
+}
+
+.canivete{
+  position: absolute;
+  bottom: 7%;
+  right: 9%;
+  z-index: 1;
+  width: 5%;
+  height: 4.6%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition:  0.8s ease-in-out;
+}
+
+.canivete:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition:  0.8s ease-in-out;
+}
+
+.diario{
+  position: absolute;
+  bottom: 3%;
+  left: 0%;
+  z-index: 1;
+  width: 23.5%;
+  height: 20.3%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition:  0.8s ease-in-out;
+}
+
+.diario:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition:  0.8s ease-in-out;
+}
+
+.bonas{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.bonas img {
+  width: 100%;
+}
+
+.bonasLivro{
+  position: absolute;
+  bottom: 15%;
+  left: 40%;
+  color: white;
+}
+
+.contadorRegressivo{
+  position: absolute;
+  top: 0;
+  left: 46%;
+  display: flex;
+  background: white;
+  margin-top: 5px;
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.contadorRegressivo img {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+}
+
+.contadorRegressivo{
+  position: absolute;
+  top: 0;
+  left: 46%;
+  width: 4.5%;
+  display: flex;
+  background: white;
+  margin-top: 5px;
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.contadorRegressivo img {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+}
+
+
+
+  @keyframes fadeInBackground {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }

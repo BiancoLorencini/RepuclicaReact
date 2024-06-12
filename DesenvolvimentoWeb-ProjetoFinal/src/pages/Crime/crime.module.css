@@ -1,0 +1,94 @@
+.crime{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  animation: fadeInBackground 1s ease-in-out;
+}
+
+.containerIcon{
+  position: absolute;
+  background: transparent;
+  bottom: 0;
+  left: 45%;
+}
+
+.homeIcon{
+  width: 55%;
+}
+
+.tituloLocal{
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  transform: rotate(-15deg);
+  font-size: x-large;
+  font-family: "Honk", system-ui;
+}
+
+.ferida{
+  position: absolute;
+  bottom: 30%;
+  left: 28.7%;
+  z-index: 1;
+  width: 2.5%;
+  height: 9.8%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition:  0.8s ease-in-out;
+}
+
+.ferida:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition:  0.8s ease-in-out;
+}
+
+.porteira{
+  position: absolute;
+  bottom: 50%;
+  left: 10.9%;
+  z-index: 1;
+  width: 10%;
+  height: 35%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition:  0.8s ease-in-out;
+}
+
+.porteira:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition:  0.8s ease-in-out;
+}
+
+.contadorRegressivo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+}
+
+.contadorRegressivo{
+  position: absolute;
+  top: 0;
+  left: 46%;
+  width: 4.5%;
+  display: flex;
+  background: white;
+  margin-top: 5px;
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.contadorRegressivo img {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+}
+
+@keyframes fadeInBackground {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

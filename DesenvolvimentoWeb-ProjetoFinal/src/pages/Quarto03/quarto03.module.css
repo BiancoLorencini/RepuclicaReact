@@ -1,0 +1,215 @@
+.quarto03 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  animation: fadeInBackground 1s ease-in-out;
+}
+.caixa{
+  position: absolute;
+  bottom: 9%;
+  left: 6.3%;
+  z-index: 1;
+  width: 10%;
+  height: 17%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition:  0.8s ease-in-out;
+}
+
+.caixa:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition:  0.8s ease-in-out;}
+
+.gato{
+  position: absolute;
+  bottom: 14%;
+  right: 26.6%;
+  z-index: 1;
+  width: 5.5%;
+  height: 20%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition:  0.8s ease-in-out;
+}
+.gato:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition:  0.8s ease-in-out;
+}
+.sangue{
+  position: absolute;
+  bottom: 35.3%;
+  right: 22.1%;
+  z-index: 1;
+  width: 3.4%;
+  height: 4%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition:  0.8s ease-in-out;
+}
+
+.sangue:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition:  0.8s ease-in-out;
+}
+
+.tituloLocal{
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  transform: rotate(-15deg);
+  font-size: x-large;
+  font-family: "Honk", system-ui;
+}
+
+
+.containerIcon{
+  position: absolute;
+  background: transparent;
+  bottom: 1%;
+  left: 48.3%;
+}
+
+.homeIcon{
+  width: 55%;
+}
+
+.caixaPopUp{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  top: 36%;
+  left: 25%;
+  width: 22%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  border: 2px solid #e4760f;
+  animation: fadeInBackground 0.4s ease-in-out;
+  color: white;
+  padding: 1%;
+}
+
+.gatoPopUp{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  top: 64%;
+  right: 17%;
+  width: 30%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  border: 2px solid #e4760f;
+  animation: fadeInBackground 0.4s ease-in-out;
+  color: white;
+  padding: 1%;
+}
+
+.caixaPopUpInterna{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caixaPopUpInterna img{
+  width: 70%;
+  background-color: white;
+}
+.tituloPop span{
+  position: absolute;
+  top: -4%;
+  right: -4%;
+  width: 6%;
+  height: 9%;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sanguePopUp{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  top: 30%;
+  right: 1%;
+  width: 22%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  border: 2px solid #e4760f;
+  animation: fadeInBackground 0.4s ease-in-out;
+  color: white;
+  padding: 1%;
+}
+
+.yuka{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.yuka img {
+  width: 100%;
+}
+
+.yukaTexto{
+  position: absolute;
+  bottom: 15%;
+  left: 40%;
+  color: white;
+}
+
+.contadorRegressivo{
+  position: absolute;
+  top: 0;
+  left: 46%;
+  display: flex;
+  background: white;
+  margin-top: 5px;
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.contadorRegressivo img {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+}
+
+.contadorRegressivo{
+  position: absolute;
+  top: 0;
+  left: 46%;
+  width: 4.5%;
+  display: flex;
+  background: white;
+  margin-top: 5px;
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.contadorRegressivo img {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+}
+
+
+@keyframes fadeInBackground {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+

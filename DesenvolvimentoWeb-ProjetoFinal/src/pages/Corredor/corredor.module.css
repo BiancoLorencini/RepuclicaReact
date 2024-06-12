@@ -1,0 +1,245 @@
+.corredor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  animation: fadeInBackground 1s ease-in-out;
+}
+
+.tituloLocal {
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  transform: rotate(-15deg);
+  font-size: x-large;
+  font-family: "Honk", system-ui;
+}
+
+.portaCrime {
+  position: absolute;
+  top: 34%;
+  left: 41%;
+  width: 13%;
+  height: 46%;
+  background: transparent;
+  border: none;
+  z-index: 2;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.portaCrime:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition: 0.4s ease-in-out;
+}
+
+.portaBonas {
+  position: absolute;
+  top: 1%;
+  left: 13%;
+  width: 7%;
+  height: 98%;
+  background: transparent;
+  border: none;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.portaBonas:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition: 0.4s ease-in-out;
+}
+
+.portaAlex {
+  position: absolute;
+  width: 3%;
+  height: 72%;
+  background-color: transparent;
+  border: none;
+  left: 25%;
+  top: 19%;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.portaAlex:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition: 0.4s ease-in-out;
+}
+
+.portaYuka {
+  position: absolute;
+  top: 1%;
+  right: 6%;
+  width: 10%;
+  height: 98%;
+  transition: 0.4s ease-in-out;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.portaYuka:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition: 0.4s ease-in-out;
+}
+
+.portaMiguelito {
+  position: absolute;
+  top: 16%;
+  right: 22.6%;
+  width: 4%;
+  height: 77%;
+  transition: 0.4s ease-in-out;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.portaMiguelito:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition: 0.4s ease-in-out;
+}
+
+.portaLorencini {
+  position: absolute;
+  top: 27%;
+  right: 31%;
+  width: 2.5%;
+  height: 57%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.portaLorencini:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition: 0.4s ease-in-out;
+}
+
+.containerIcon {
+  position: absolute;
+  background: transparent;
+  bottom: 1%;
+  left: 48.3%;
+}
+
+.homeIcon {
+  width: 55%;
+}
+
+.containerLupa {
+  position: absolute;
+  background: transparent;
+  bottom: 1%;
+  left: 53%;
+}
+
+
+.lupaIcon {
+  width: 18%;
+}
+
+.alexIntroCorredor {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.falaAlexInicial {
+  position: absolute;
+  bottom: 8%;
+  left: 30%;
+  width: 50%;
+  color: white;
+  font-size: larger;
+}
+
+.contadorRegressivo{
+  position: absolute;
+  top: 0;
+  left: 46%;
+  display: flex;
+  background: white;
+  margin-top: 5px;
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.containerCarro {
+  margin-top: 50 px;
+  position: absolute;
+  background: transparent;
+  bottom: 0;
+  left: 43%;
+  width: 150px;
+}
+
+.carroIcon {
+  width: 50%;
+  height: 50%;
+}
+
+
+.popUpAcusacao {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  border: 2px solid #e4760f;
+  animation: fadeInBackground 0.4s ease-in-out;
+  color: white;
+  padding: 1%;
+  width: 35%;
+  height: 21%;
+  left: 50%;
+  top: 75%;
+  z-index: 9;
+}
+
+.tituloAcusacao {
+  font-size: 16px;
+  font-weight:400 ;
+  text-align: center;
+}
+
+.containerImgAcusacao {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgAcusacao {
+  width: 80%;
+  filter: brightness(0.3);
+  transition: filter 0.3s ease-in-out;
+}
+
+.imgAcusacao:hover {
+  filter: brightness(1);
+}
+
+.contadorRegressivo img {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+}
+
+
+
+
+@keyframes fadeInBackground {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

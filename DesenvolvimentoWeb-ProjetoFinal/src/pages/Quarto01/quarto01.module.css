@@ -1,0 +1,198 @@
+.quarto01 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  animation: fadeInBackground 1s ease-in-out;
+}
+
+.tituloLocal{
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  transform: rotate(-15deg);
+  font-size: x-large;
+  font-family: "Honk", system-ui;
+}
+
+
+.containerIcon{
+  position: absolute;
+  background: transparent;
+  bottom: 1%;
+  left: 48.3%;
+}
+
+.homeIcon{
+  width: 55%;
+}
+
+@keyframes fadeInBackground {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.caixaArmario{
+  position: absolute;
+  bottom: 39.7%;
+  left: 29.1%;
+  z-index: 1;
+  width: 2.2%;
+  height: 6.3%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition:  0.8s ease-in-out;
+}
+
+.caixaArmario:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition:  0.8s ease-in-out;}
+
+  .gaveta{
+    position: absolute;
+    bottom: 47.5%;
+    right: 25.7%;
+    z-index: 1;
+    width: 10.3%;
+    height: 3.7%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition:  0.8s ease-in-out;
+  }
+
+  .gaveta:hover {
+    box-shadow: 1px 1px 5px 5px white;
+    transition:  0.8s ease-in-out;}
+
+  .chave{
+    position: absolute;
+    bottom: 60.4%;
+    right: 14%;
+    z-index: 1;
+    width: 1.7%;
+    height: 6.2%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition:  0.8s ease-in-out;
+  }
+
+  .chave:hover {
+    box-shadow: 1px 1px 5px 5px white;
+    transition:  0.8s ease-in-out;
+  }
+
+  .cofrePopUp{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    top: 31%;
+    left: 25%;
+    width: 22%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    border: 2px solid #e4760f;
+    animation: fadeInBackground 0.4s ease-in-out;
+    color: white;
+    padding: 1%;
+  }
+
+  .gavetaPopUp{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    top: 28%;
+    right: 20%;
+    width: 22%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    border: 2px solid #e4760f;
+    animation: fadeInBackground 0.4s ease-in-out;
+    color: white;
+    padding: 1%;
+  }
+
+  .chavePopUp{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    bottom: 1%;
+    right: 1%;
+    width: 22%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    border: 2px solid #e4760f;
+    animation: fadeInBackground 0.4s ease-in-out;
+    color: white;
+    padding: 1%;
+  }
+
+  .tituloPop span{
+    position: absolute;
+    top: -4%;
+    right: -4%;
+    width: 6%;
+    height: 9%;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+.textoPopUp span::before{
+  content: '"';
+}
+
+.textoPopUp span::after{
+  content: '"';
+}
+
+.Alex{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.Alex img {
+  width: 100%;
+}
+
+.alexTexto{
+  position: absolute;
+  bottom: 15%;
+  left: 40%;
+  color: white;
+}
+
+.contadorRegressivo{
+  position: absolute;
+  top: 0;
+  left: 46%;
+  width: 4.5%;
+  display: flex;
+  background: white;
+  margin-top: 5px;
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.contadorRegressivo img {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+}
+
+

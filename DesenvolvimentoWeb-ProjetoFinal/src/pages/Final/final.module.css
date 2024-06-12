@@ -1,0 +1,19 @@
+.videoContainer{
+  width: 100vw;
+  max-height: 100vh;
+  z-index: -1;
+  overflow: hidden
+}
+
+.finalVideo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  transition: opacity 1s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+  object-fit: cover;
+}

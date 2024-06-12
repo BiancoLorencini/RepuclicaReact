@@ -1,0 +1,146 @@
+.quarto04 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  animation: fadeInBackground 1s ease-in-out;
+}
+
+.containerIcon{
+  position: absolute;
+  background: transparent;
+  bottom: 1%;
+  left: 48.3%;
+}
+
+.tituloLocal{
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  transform: rotate(-15deg);
+  font-size: x-large;
+  font-family: "Honk", system-ui;
+}
+
+.homeIcon{
+  width: 55%;
+}
+
+.balde{
+  position: absolute;
+  bottom: 33.2%;
+  right: 40.8%;
+  z-index: 1;
+  width: 8.5%;
+  height: 18.7%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition:  0.8s ease-in-out;
+}
+
+.balde:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition:  0.8s ease-in-out;
+}
+
+.computador{
+  position: absolute;
+  top: 29%;
+  left: 25.4%;
+  z-index: 1;
+  width: 9.6%;
+  height: 13%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition:  0.8s ease-in-out;
+}
+
+.computador:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition:  0.8s ease-in-out;
+}
+
+.dever{
+  position: absolute;
+  bottom: 45%;
+  right: 0%;
+  z-index: 1;
+  width: 8.4%;
+  height: 7%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition:  0.8s ease-in-out;
+}
+
+.dever:hover {
+  box-shadow: 1px 1px 5px 5px white;
+  transition:  0.8s ease-in-out;
+}
+
+.LorenSorrindo{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.LorenSorrindo img {
+  width: 100%;
+}
+
+.loren{
+  position: absolute;
+  bottom: 15%;
+  left: 40%;
+  color: white;
+}
+
+
+.contadorRegressivo{
+  position: absolute;
+  top: 0;
+  left: 46%;
+  width: 4.5%;
+  display: flex;
+  background: white;
+  margin-top: 5px;
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.contadorRegressivo img {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+}
+
+.contadorRegressivo{
+  position: absolute;
+  top: 0;
+  left: 46%;
+  width: 4.5%;
+  display: flex;
+  background: white;
+  margin-top: 5px;
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.contadorRegressivo img {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+}
+
+
+
+
+
+@keyframes fadeInBackground {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
