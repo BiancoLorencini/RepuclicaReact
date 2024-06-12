@@ -10,14 +10,6 @@ Aqui, encontra-se o código-fonte e a documentação relacionada ao projeto fina
 
 "A República" é um jogo de investigação desenvolvido com React e Vite. No jogo, você assume o papel de um detetive tentando desvendar o mistério da morte de Fred. Explore diferentes cenários, colete pistas e interrogue suspeitos para solucionar o caso.
 
-## Imagens do Jogo
-
-![Screenshot 1](./assets/screenshot1.jpg)
-*Descrição da imagem 1*
-
-![Screenshot 2](./assets/screenshot2.jpg)
-*Descrição da imagem 2*
-
 ## Tecnologias Utilizadas
   
   <img align="center" alt="bn-react" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
