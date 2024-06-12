@@ -34,7 +34,7 @@ Aqui, encontra-se o código-fonte e a documentação relacionada ao projeto fina
   LinkedIn - https://www.linkedin.com/in/yuyuka/
 
 - **Bianco Danilo Lorencini**  
-  LinkedIn - (Link do LinkedIn aqui!!)
+  LinkedIn - www.linkedin.com/in/bianco-lorencini
 
 - **Lucas Bonafé Ladeira dos Santos**  
   LinkedIn -  (Link do LinkedIn aqui!!)
